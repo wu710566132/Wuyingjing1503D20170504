@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vp">
+
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rg">
+
+        <RadioButton
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:checked="true"
+            android:gravity="center_horizontal"
+            android:text="首页"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"/>
+
+        <RadioButton
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:gravity="center_horizontal"
+            android:text="发现"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"/>
+
+        <RadioButton
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:gravity="center_horizontal"
+            android:text="活动"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3"/>
+
+        <RadioButton
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:gravity="center_horizontal"
+            android:text="我的"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb4"/>
+
+    </RadioGroup>
+
+
+
+
+    </RelativeLayout>
+
+
+
